@@ -1,0 +1,24 @@
+# ── Godot 缓存/构建产物 ──
+godot/.godot/
+godot/build/
+
+# ── Python ──
+__pycache__/
+*.pyc
+
+# ── 游戏数据（大二进制，约 2.9GB；用网盘「重生股神-项目包.zip」分发，勿入 git）──
+# 260 天精简包：godot/game_data/（运行时必需，从项目包解压恢复）
+# 全量 1032 天原始数据：game_data/
+godot/game_data/
+game_data/
+
+# ── 工作记忆/开发日志（个人记录，不入仓库）──
+.workbuddy/
+
+# ── 系统 ──
+.DS_Store
+Thumbs.db
+
+# ── 打包产物（APK 单独网盘分发）──
+*.apk
+*.zip
