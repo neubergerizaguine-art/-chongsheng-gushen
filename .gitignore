@@ -22,3 +22,11 @@ Thumbs.db
 # ── 打包产物（APK 单独网盘分发）──
 *.apk
 *.zip
+
+# ── 早期 Python 原型（已被 Godot 版取代，本地保留不入库）──
+server.py
+run.sh
+requirements.txt
+static/
+test_engine.py
+.cache/
